@@ -36,8 +36,6 @@ h6,
 p,
 ul {
   margin: 0;
-  /* margin-top: 0;
-  margin-bottom: 0; */
 }
 
 img {
@@ -540,6 +538,7 @@ button {
   background-color: var(--accent-color);
 }
 
+/*-------- Form-------- */
 .form-box {
   width: 570px;
   margin-top: 12px;
