@@ -167,21 +167,10 @@
 }
 
 .modal-form__btn {
+  @extend %button;
+
   display: block;
   margin-left: auto;
   margin-right: auto;
-
   padding: 10px 55px;
-  min-width: 200px;
-  text-align: center;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-
-  background-color: $accentColor;
-  color: $backgroundColor;
-  font-family: $primaryFontFamily;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
 }

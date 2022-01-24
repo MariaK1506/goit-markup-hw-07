@@ -34,21 +34,8 @@
 }
 
 .button-primary {
+  @extend %button;
   padding: 10px 32px;
-  min-width: 200px;
-  text-align: center;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
-  background-color: $accentColor;
-  color: $backgroundColor;
-  font-family: $primaryFontFamily;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  align-items: center;
-  letter-spacing: 0.06em;
-  cursor: pointer;
   transition: background-color $timingFunction;
 
   &:hover,
