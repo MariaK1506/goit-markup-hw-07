@@ -538,7 +538,6 @@ button {
   background-color: var(--accent-color);
 }
 
-/*-------- Form-------- */
 .form-box {
   width: 570px;
   margin-top: 12px;
@@ -553,8 +552,7 @@ button {
   text-transform: uppercase;
   color: var(--background-color);
 }
-.signup-form {
-}
+
 .form-field {
   display: flex;
 }
@@ -876,7 +874,7 @@ button {
 } */
 
 .projects-cards__link:hover .projects-cards__overlay,
-.projects-cards__link :focus .projects-cards__overlay {
+.projects-cards__link:focus .projects-cards__overlay {
   opacity: 1;
   transform: translateY(0);
 }

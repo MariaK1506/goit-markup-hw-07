@@ -12,7 +12,7 @@
   }
 }
 
-.features-list__icon {
+.features-list__wrapper {
   @include centeredFlex;
 
   width: 270px;
@@ -26,11 +26,9 @@
 }
 
 .features-list__title {
-  margin-top: 0;
-  margin-bottom: 10px;
+  @extend %title;
 
-  color: $primaryTextColor;
-  font-weight: 700;
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;

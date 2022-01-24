@@ -33,7 +33,7 @@
   padding-top: 30px;
 }
 
-.social-links__list {
+.social-links {
   @include flex;
   @extend %list;
   justify-content: space-around;
