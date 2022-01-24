@@ -72,7 +72,7 @@ button {
   text-decoration: none;
 }
 
-.contact-nav__icon, .signup-form__icon, .modal__icon, .modal-form__icon {
+.contact-nav__icon, .modal__icon, .modal-form__icon {
   fill: currentColor;
 }
 
@@ -581,72 +581,6 @@ button {
 
 .social-links-footer__link:hover, .social-links-footer__link:focus {
   background-color: #2196f3;
-}
-
-.form-box {
-  width: 570px;
-  margin-top: 12px;
-  margin-left: 93px;
-}
-
-.form-box-title {
-  margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.form-field {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.signup-form__input {
-  margin-right: 12px;
-  padding: 15px 295px 15px 16px;
-  width: 358px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  font: inherit;
-  border-radius: 4px;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  background-color: #2f303a;
-}
-
-.signup-form__btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 10px 28px;
-  min-width: 200px;
-  text-align: center;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  background-color: #2196f3;
-  color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  /* transition: background-color 250ms var(--timing-function); */
-}
-
-.signup-form__icon {
-  margin: auto;
 }
 
 .backdrop {
