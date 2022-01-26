@@ -11,9 +11,15 @@
   display: flex;
   margin-left: 93px;
 }
-.main-nav__item + .main-nav__item {
-  margin-left: 50px;
+
+.main-nav__item {
+  & + & {
+    margin-left: 50px;
+  }
 }
+// .main-nav__item + .main-nav__item {
+//   margin-left: 50px;
+// }
 
 .main-nav__link {
   @extend %link;
